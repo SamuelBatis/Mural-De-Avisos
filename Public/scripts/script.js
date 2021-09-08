@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function updatePosts() {
 
-    fetch("http://localhost:3000/api/all").then(res => {
+    fetch("http://127.0.0.1:3000/api/all").then(res => {
         return res.json()
     }).then(json => {
         let postElements = '';
@@ -46,7 +46,7 @@ function newPost() {
         body: JSON.stringify(post)
     }
 
-    fetch("http://127.0.0.1:3000/api/all", options).then(res => {
+    fetch("http://127.0.0.1:3000/api/new", options).then(res => {
         console.log(res)
         updatePosts();
         document.getElementById("title").value = "";
