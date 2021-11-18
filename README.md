@@ -10,7 +10,7 @@
 
 ## Descrição
 
-<p>Pagina que rece novos posts com Titulo e descrição e os coloca em um mural de avisos.</p>
+<p>Pagina que recebe novos posts com Titulo e descrição e os coloca em um mural de avisos.</p>
 
 
 ## Tecnologias Utilizadas
